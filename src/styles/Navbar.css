@@ -1,0 +1,46 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "Open Sans", sans-serif;
+  position: relative;
+  padding: 20px 85px;
+  font-weight: 500;
+  color: #212832;
+  font-size: 15px;
+}
+.navlinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 85px;
+}
+
+.navlink {
+  padding: 8px 20px;
+}
+.navlink span {
+  cursor: pointer;
+}
+
+.signup {
+  border: 1px solid #212832;
+  border-radius: 5px;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+.signup:hover {
+  color: #ffff;
+  background-color: #212832;
+}
+
+.logo img {
+  width: 100px;
+  cursor: pointer;
+}
