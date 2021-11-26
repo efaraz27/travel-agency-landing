@@ -44,10 +44,14 @@
     margin-top: 20px;
 }
 
+.enjoy{
+    position: relative;
+}
+
 .underline{
     position: absolute;
-    left: 42%;
-    top: 27%;
+    left: -15%;
+    bottom: 15%;
     width: 500px;
     z-index: -1;
 }
