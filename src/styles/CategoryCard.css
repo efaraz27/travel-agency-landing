@@ -6,7 +6,7 @@
     text-align: center;
     max-width: 200px;
     padding: 50px 25px;
-
+    min-width: 250px;
 }
 
 .category-title{

@@ -4,11 +4,13 @@ import categoryCardImage1 from "../assets/category-card-1.png";
 import categoryCardImage2 from "../assets/category-card-2.png";
 import categoryCardImage3 from "../assets/category-card-3.png";
 import categoryCardImage4 from "../assets/category-card-4.png";
+import decore from "../assets/Group 4.svg";
 import "../styles/Category.css";
 
 function Category() {
   return (
     <div className="categories">
+      <img src={decore} alt=""  className="grid-decore"/>
       <div className="heading">Category</div>
       <div className="punchline">We Offer Best Services</div>
       <div className="category-cards">

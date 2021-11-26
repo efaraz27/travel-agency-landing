@@ -23,3 +23,14 @@
   flex-wrap: wrap;
   justify-content: space-around;
 }
+
+.last-card{
+  position: relative;
+}
+
+.spiral-decore{
+  position: absolute;
+  right: -15%;
+  top: 30%;
+  z-index: -1;
+}
