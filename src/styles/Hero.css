@@ -3,24 +3,25 @@
     top: 0;
     right: 0;
     z-index: -1;
-    width: 500px;
+    width: 700px;
 }
 
 .hero-contents{
     display: flex;
     flex-direction: row;
-    padding: 50px 90px;
     text-align: left;
+    position: relative;
 }
 
 .description{
-    max-width: 440px;
+    max-width: 800px;
 }
 
 .hero-image{
-    width: 580px;
+    width: 780px;
     position: absolute;
-    right: 50px;
+    right: 0;
+    z-index: -1;
 }
 
 
@@ -29,25 +30,25 @@
     color: #DF6951;
     font-weight: 700;
     text-transform: uppercase;
-    font-size: 15px;
-    margin-top: 80px;
+    font-size: 25px;
+    margin-top: 40px;
 }
 
-.heading{
+.punchline{
     font-family: 'Volkhov', serif;
     color: #181e4b;
-    font-size: 65px;
+    font-size: 110px;
     letter-spacing: -3px;
-    line-height: 70px;
+    line-height: 120px;
     position: relative;
     margin-top: 20px;
 }
 
 .underline{
     position: absolute;
-    left: 190px;
-    top: 53px;
-    width: 300px;
+    left: 42%;
+    top: 27%;
+    width: 500px;
     z-index: -1;
 }
 

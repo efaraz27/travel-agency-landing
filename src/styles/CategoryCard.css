@@ -1,0 +1,25 @@
+.category-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 200px;
+    padding: 50px 25px;
+
+}
+
+.category-title{
+    font-family: "Open Sans", sans-serif;
+    color: #1E1D4C;
+    font-size: 20px;
+    padding: 10px 0px;
+}
+
+.category-desc{
+    font-family: 'Poppins';
+    color: #5E6282;
+    font-size: 15px;
+    padding: 10px 10px;
+}
+

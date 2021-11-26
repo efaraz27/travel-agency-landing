@@ -14,7 +14,7 @@ function Hero() {
       <div className="hero-contents">
         <div className="description">
           <div className="tagline">Best Destinations around the world</div>
-          <div className="heading">
+          <div className="punchline">
             Travel, <span className="enjoy">enjoy</span>{" "}
             <img className="underline" src={underline} alt="underline" /> and
             live a new and full life
