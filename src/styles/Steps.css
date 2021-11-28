@@ -1,0 +1,19 @@
+.steps-section {
+  margin-top: 200px;
+  display: flex;
+  flex-direction: row;
+}
+
+.steps-section .heading {
+  text-align: left;
+}
+
+.steps-section .punchline {
+  font-size: 80px;
+  line-height: 1;
+  max-width: 800px;
+  text-transform: capitalize;
+}
+.steps{
+    padding: 30px 0px;
+}

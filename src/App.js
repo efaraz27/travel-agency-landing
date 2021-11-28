@@ -1,7 +1,8 @@
-import './App.css';
-import Category from './sections/Category';
-import Hero from './sections/Hero';
-import TopSelling from './sections/TopSelling';
+import "./App.css";
+import Category from "./sections/Category";
+import Hero from "./sections/Hero";
+import Steps from "./sections/Steps";
+import TopSelling from "./sections/TopSelling";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Hero />
       <Category />
       <TopSelling />
+      <Steps />
     </div>
   );
 }

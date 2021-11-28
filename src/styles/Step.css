@@ -1,0 +1,25 @@
+.step-wrapper {
+  padding: 30px 0px;
+  display: inline-flex;
+  flex-direction: row;
+}
+.step-image {
+  padding-right: 25px;
+  width: 50px;
+  height: 50px;
+}
+
+.step-details {
+  max-width: 500px;
+}
+
+.step-heading {
+  font-family: "Poppins";
+  font-weight: 700;
+  color: #5e6282;
+}
+
+.step-desc {
+  font-family: "Poppins";
+  color: #5e6282;
+}
